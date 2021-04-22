@@ -41,6 +41,8 @@ namespace Lab4_tp
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Operations = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Write_Res = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Matrix)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,7 +76,7 @@ namespace Lab4_tp
             // Generate_Matrix
             // 
             this.Generate_Matrix.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Generate_Matrix.Location = new System.Drawing.Point(22, 148);
+            this.Generate_Matrix.Location = new System.Drawing.Point(22, 177);
             this.Generate_Matrix.Name = "Generate_Matrix";
             this.Generate_Matrix.Size = new System.Drawing.Size(242, 41);
             this.Generate_Matrix.TabIndex = 4;
@@ -87,16 +89,17 @@ namespace Lab4_tp
             this.Matrix.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Matrix.Location = new System.Drawing.Point(270, 12);
             this.Matrix.Name = "Matrix";
-            this.Matrix.Size = new System.Drawing.Size(387, 224);
+            this.Matrix.Size = new System.Drawing.Size(357, 254);
             this.Matrix.TabIndex = 5;
             // 
             // Op_number
             // 
             this.Op_number.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Op_number.Location = new System.Drawing.Point(22, 242);
+            this.Op_number.Location = new System.Drawing.Point(135, 272);
+            this.Op_number.Multiline = true;
             this.Op_number.Name = "Op_number";
             this.Op_number.ReadOnly = true;
-            this.Op_number.Size = new System.Drawing.Size(635, 20);
+            this.Op_number.Size = new System.Drawing.Size(492, 42);
             this.Op_number.TabIndex = 6;
             // 
             // Save_Matrix
@@ -154,7 +157,7 @@ namespace Lab4_tp
             // Operations
             // 
             this.Operations.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Operations.Location = new System.Drawing.Point(23, 195);
+            this.Operations.Location = new System.Drawing.Point(23, 225);
             this.Operations.Name = "Operations";
             this.Operations.Size = new System.Drawing.Size(242, 41);
             this.Operations.TabIndex = 12;
@@ -162,12 +165,34 @@ namespace Lab4_tp
             this.Operations.UseVisualStyleBackColor = true;
             this.Operations.Click += new System.EventHandler(this.Operations_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label4.Location = new System.Drawing.Point(20, 275);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(109, 13);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Выбрана операция :";
+            // 
+            // Write_Res
+            // 
+            this.Write_Res.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.Write_Res.Location = new System.Drawing.Point(23, 148);
+            this.Write_Res.Name = "Write_Res";
+            this.Write_Res.Size = new System.Drawing.Size(242, 23);
+            this.Write_Res.TabIndex = 14;
+            this.Write_Res.Text = "Сохранить результат в файл";
+            this.Write_Res.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlText;
-            this.ClientSize = new System.Drawing.Size(669, 276);
+            this.ClientSize = new System.Drawing.Size(639, 326);
+            this.Controls.Add(this.Write_Res);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.Operations);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -201,5 +226,7 @@ namespace Lab4_tp
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button Operations;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button Write_Res;
     }
 }

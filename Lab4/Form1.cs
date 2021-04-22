@@ -73,33 +73,33 @@ namespace Lab4_tp
 
         }
 
-        private void Close_Click(object sender, EventArgs e)
+        private void Close_Click(object sender, EventArgs e) // Кнопка закрыть
         {
             Close();
         }
-        private void Author_Click(object sender, EventArgs e)
+        private void Author_Click(object sender, EventArgs e) // Кнопка перехода к Form3
         {
             Form3 f = new Form3();
-            f.Show();
             f.Text = Author.Text;
+            f.ShowDialog();
         }
-        private void Input_data_Click(object sender, EventArgs e)
+        private void Input_data_Click(object sender, EventArgs e) // Передача данных в Form2
         {
             string op = " ";
             int num = 0;
             if (Op_1.Checked)
             {
-                op = "Выбрана операция : Отсортировать элементы массива по возрастанию в строках,представить их в квадратном массиве";
+                op = "Отсортировать элементы массива по возрастанию в строках,представить их в квадратном массиве";
                 num = 1;
             }
             if (Op_2.Checked)
             {
-                op = "Выбрана операция : Определить минимальный элемент среди элементов с четной суммойиндексов массива";
+                op = "Определить минимальный элемент среди элементов с четной суммойиндексов массива";
                 num = 2;
             }
             if (Op_3.Checked)
             {
-                op = "Выбрана операция : Отцентрировать элементы массива";
+                op = "Отцентрировать элементы массива";
                 num = 3;
             }
             f = new Form2(N.Text, A.Text, B.Text, op, num);
