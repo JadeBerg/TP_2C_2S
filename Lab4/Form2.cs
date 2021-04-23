@@ -243,7 +243,7 @@ namespace Lab4_tp
                     sw.Close();
                 }
             }
-            public string Read_Matrix()
+            public string Read_Matrix() // Считывание массива из файла 
             {
                 string[] mat;
                 string N1="";
