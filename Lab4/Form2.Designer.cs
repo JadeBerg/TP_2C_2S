@@ -80,7 +80,7 @@ namespace Lab4_tp
             this.Generate_Matrix.Name = "Generate_Matrix";
             this.Generate_Matrix.Size = new System.Drawing.Size(242, 41);
             this.Generate_Matrix.TabIndex = 4;
-            this.Generate_Matrix.Text = "Генерация матрицы";
+            this.Generate_Matrix.Text = "Генерация массива";
             this.Generate_Matrix.UseVisualStyleBackColor = true;
             this.Generate_Matrix.Click += new System.EventHandler(this.Generate_Matrix_Click);
             // 
@@ -109,7 +109,7 @@ namespace Lab4_tp
             this.Save_Matrix.Name = "Save_Matrix";
             this.Save_Matrix.Size = new System.Drawing.Size(242, 23);
             this.Save_Matrix.TabIndex = 7;
-            this.Save_Matrix.Text = "Сохранить матрицу в файл";
+            this.Save_Matrix.Text = "Сохранить массив в файл";
             this.Save_Matrix.UseVisualStyleBackColor = true;
             this.Save_Matrix.Click += new System.EventHandler(this.Save_Matrix_Click);
             // 
@@ -120,7 +120,7 @@ namespace Lab4_tp
             this.Read_Matrix.Name = "Read_Matrix";
             this.Read_Matrix.Size = new System.Drawing.Size(242, 23);
             this.Read_Matrix.TabIndex = 8;
-            this.Read_Matrix.Text = "Считать матрицу из файла";
+            this.Read_Matrix.Text = "Считать размерность и массив из файла";
             this.Read_Matrix.UseVisualStyleBackColor = true;
             this.Read_Matrix.Click += new System.EventHandler(this.Read_Matrix_Click);
             // 
@@ -184,6 +184,7 @@ namespace Lab4_tp
             this.Write_Res.TabIndex = 14;
             this.Write_Res.Text = "Сохранить результат в файл";
             this.Write_Res.UseVisualStyleBackColor = true;
+            this.Write_Res.Click += new System.EventHandler(this.Write_Res_Click);
             // 
             // Form2
             // 

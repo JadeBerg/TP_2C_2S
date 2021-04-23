@@ -59,7 +59,7 @@ namespace Lab4_tp
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.groupBox1.Location = new System.Drawing.Point(14, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(276, 164);
+            this.groupBox1.Size = new System.Drawing.Size(276, 182);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Исходные данные";
@@ -67,7 +67,7 @@ namespace Lab4_tp
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 112);
+            this.label3.Location = new System.Drawing.Point(18, 134);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(144, 13);
             this.label3.TabIndex = 3;
@@ -77,7 +77,7 @@ namespace Lab4_tp
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 71);
+            this.label2.Location = new System.Drawing.Point(18, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(138, 13);
             this.label2.TabIndex = 2;
@@ -86,7 +86,7 @@ namespace Lab4_tp
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 35);
+            this.label1.Location = new System.Drawing.Point(18, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(139, 13);
             this.label1.TabIndex = 1;
@@ -94,7 +94,7 @@ namespace Lab4_tp
             // 
             // B
             // 
-            this.B.Location = new System.Drawing.Point(162, 109);
+            this.B.Location = new System.Drawing.Point(162, 131);
             this.B.Name = "B";
             this.B.Size = new System.Drawing.Size(100, 20);
             this.B.TabIndex = 1;
@@ -102,7 +102,7 @@ namespace Lab4_tp
             // 
             // A
             // 
-            this.A.Location = new System.Drawing.Point(162, 68);
+            this.A.Location = new System.Drawing.Point(162, 86);
             this.A.Name = "A";
             this.A.Size = new System.Drawing.Size(100, 20);
             this.A.TabIndex = 1;
@@ -110,7 +110,7 @@ namespace Lab4_tp
             // 
             // N
             // 
-            this.N.Location = new System.Drawing.Point(162, 32);
+            this.N.Location = new System.Drawing.Point(162, 44);
             this.N.Name = "N";
             this.N.Size = new System.Drawing.Size(100, 20);
             this.N.TabIndex = 0;
@@ -167,7 +167,7 @@ namespace Lab4_tp
             // Close
             // 
             this.Close.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Close.Location = new System.Drawing.Point(12, 201);
+            this.Close.Location = new System.Drawing.Point(14, 201);
             this.Close.Name = "Close";
             this.Close.Size = new System.Drawing.Size(72, 45);
             this.Close.TabIndex = 2;
@@ -178,7 +178,7 @@ namespace Lab4_tp
             // Author
             // 
             this.Author.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Author.Location = new System.Drawing.Point(428, 206);
+            this.Author.Location = new System.Drawing.Point(428, 201);
             this.Author.Name = "Author";
             this.Author.Size = new System.Drawing.Size(130, 45);
             this.Author.TabIndex = 5;
